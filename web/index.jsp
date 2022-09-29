@@ -12,11 +12,13 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Entry Formh</h1>
+        <h1>Entry Form</h1>
             
-        <form name="Name Input Form" action="response.jsp">
+        <form name="Name Input Form" action="response.jsp" >
             Enter your name: <input type="text" name="name"/>
+            Enter your birthday:  <b>"dd/mm/yyyy"</b><input type="text" name="nacimiento"/>
             <input type="submit" value="OK" />
         </form>
+        
     </body>
 </html>
